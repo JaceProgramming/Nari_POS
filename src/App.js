@@ -67,7 +67,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="calculator">
-        <p className="CalCulName">나리꼬모 포스기</p>
+        <p className="CalCulName">의정부 나리꼬모 포스기</p>
         <div className="selection-summary">
           <p>
             Selected Menus: {selectedMenus.map((menu) => menu.name).join(", ")}
