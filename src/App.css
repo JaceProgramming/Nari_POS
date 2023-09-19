@@ -51,7 +51,11 @@
   color: black;
 }
 
-.menu-item.BONE {
+.menu-item.BONE1 {
+  background-color: #e4dcdb;
+}
+
+.menu-item.BONE2 {
   background-color: #ece4e2;
 }
 

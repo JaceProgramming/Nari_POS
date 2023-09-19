@@ -37,32 +37,35 @@ const App = () => {
   let TH6 = 3600;
 
   const menuList = [
-    { id: 1, name: "우유생크림", price: F2, color: "BONE" },
-    { id: 2, name: "딸기우유", price: F4, color: "BONE" },
-    { id: 3, name: "슈크림", price: F5, color: "BONE" },
-    { id: 4, name: "초코우유", price: F6, color: "BONE" },
-    { id: 5, name: "인절미", price: F6, color: "BONE" },
-    { id: 6, name: "크림브륄뤠", price: F6, color: "BONE" },
-    { id: 7, name: "돼지바", price: F8, color: "BONE" },
-    { id: 8, name: "밤라떼", price: F8, color: "BONE" },
-    { id: 9, name: "레몬생크림", price: F8, color: "BONE" },
-    { id: 10, name: "생크림카스테라", price: F8, color: "BONE" },
+    { id: 1, name: "우유생크림", price: F2, color: "BONE1" },
+    { id: 2, name: "딸기우유", price: F4, color: "BONE1" },
+    { id: 3, name: "슈크림", price: F5, color: "BONE1" },
+    { id: 4, name: "초코우유", price: F6, color: "BONE1" },
+    { id: 5, name: "인절미", price: F6, color: "BONE1" },
+    { id: 6, name: "크림브륄뤠", price: F6, color: "BONE1" },
+    { id: 7, name: "황치즈", price: F6, color: "BONE1" },
+    { id: 8, name: "애플시나몬", price: F6, color: "BONE1" },
     //
-    { id: 11, name: "황치즈", price: TH6, color: "BABYPINK" },
-    { id: 12, name: "애플잼 크럼블", price: TH8, color: "BABYPINK" },
-    { id: 13, name: "피넛 딸기잼 크럼블", price: TH8, color: "BABYPINK" },
-    { id: 14, name: "솔티 초코칩", price: TH8, color: "BABYPINK" },
-    { id: 15, name: "약과 쿠키", price: F5, color: "BABYPINK" },
+    { id: 9, name: "블루베리크림치즈", price: F8, color: "BONE2" },
+    { id: 10, name: "돼지바", price: F8, color: "BONE2" },
+    { id: 11, name: "밤라떼", price: F8, color: "BONE2" },
+    { id: 12, name: "레몬생크림", price: F8, color: "BONE2" },
+    { id: 13, name: "생크림카스테라", price: F8, color: "BONE2" },
     //
-    { id: 16, name: "아이스크림 S", price: F0, color: "BUBBLEGUM" },
-    { id: 17, name: "아이스크림 M", price: S0, color: "BUBBLEGUM" },
-    { id: 18, name: "아이스크림 L", price: TEN0, color: "BUBBLEGUM" },
+    { id: 14, name: "황치즈", price: TH6, color: "BABYPINK" },
+    { id: 15, name: "애플잼 크럼블", price: TH8, color: "BABYPINK" },
+    { id: 16, name: "피넛 딸기잼 크럼블", price: TH8, color: "BABYPINK" },
+    { id: 17, name: "솔티 초코칩", price: TH8, color: "BABYPINK" },
+    { id: 18, name: "약과 쿠키", price: F5, color: "BABYPINK" },
+    { id: 19, name: "아이스크림 S", price: F0, color: "BUBBLEGUM" },
+    { id: 20, name: "아이스크림 M", price: S0, color: "BUBBLEGUM" },
+    { id: 21, name: "아이스크림 L", price: TEN0, color: "BUBBLEGUM" },
   ];
 
   const menuGroups = [
-    menuList.slice(0, 10),
-    menuList.slice(10, 15),
-    menuList.slice(15, 18),
+    menuList.slice(0, 8),
+    menuList.slice(8, 13),
+    menuList.slice(13, 21),
   ];
 
   return (
