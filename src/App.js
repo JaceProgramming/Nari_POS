@@ -71,7 +71,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="calculator">
-        <p className="CalCulName">의정부 나리꼬모 포스기</p>
+        <p className="CalCulName">의정부 나리꼬모 파이팅 &gt;,&lt; </p>
         <div className="selection-summary">
           <p>
             Selected Menus: {selectedMenus.map((menu) => menu.name).join(", ")}
@@ -79,7 +79,7 @@ const App = () => {
           <p>Total Selected: {selectedMenus.length}</p>
         </div>
         <div className="total">
-          <p>Total: ${calculateTotal()}</p>
+          <p>Total: {calculateTotal()}원</p>
         </div>
         <div className="keypad">
           {menuGroups.map((group, index) => (
