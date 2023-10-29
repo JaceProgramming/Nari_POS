@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nari_POS/static/css/main.c7d3f716.css",
+    "main.css": "/Nari_POS/static/css/main.e39953ee.css",
     "main.js": "/Nari_POS/static/js/main.5fc4b3fa.js",
     "index.html": "/Nari_POS/index.html",
-    "main.c7d3f716.css.map": "/Nari_POS/static/css/main.c7d3f716.css.map",
+    "main.e39953ee.css.map": "/Nari_POS/static/css/main.e39953ee.css.map",
     "main.5fc4b3fa.js.map": "/Nari_POS/static/js/main.5fc4b3fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7d3f716.css",
+    "static/css/main.e39953ee.css",
     "static/js/main.5fc4b3fa.js"
   ]
 }
