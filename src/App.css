@@ -51,21 +51,27 @@
   color: black;
 }
 
-.menu-item.BONE1 {
-  background-color: #e4dcdb;
+.menu-item.color1 {
+  background-color: rgb(110, 216, 220);
+}
+.menu-item.color2 {
+  background-color: rgb(150, 218, 219);
+}
+.menu-item.color3 {
+  background-color: rgb(198, 221, 222);
+}
+.menu-item.color4 {
+  background-color: rgb(253, 225, 225);
+}
+.menu-item.color5 {
+  background-color: rgb(254, 210, 210);
+}
+.menu-item.color6 {
+  background-color: rgb(255, 195, 195);
 }
 
-.menu-item.BONE2 {
-  background-color: #ece4e2;
-}
 
-.menu-item.BABYPINK {
-  background-color: #fcd3d1;
-}
 
-.menu-item.BUBBLEGUM {
-  background-color: #fcdff3;
-}
 
 .menu-item.selected {
   background-color: #66b3ff;
